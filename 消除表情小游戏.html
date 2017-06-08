@@ -42,7 +42,7 @@
 	function playgame(){
 		var num = fnRandom();
 		var img = document.createElement('img');//创建IMG对象
-		img.src = '../image/expression/'+(num+1)+'.png';//随机的图片
+		img.src = 'expression/'+(num+1)+'.png';//随机的图片
 		img.style.left = (num+1) * 80 + 'px';//随机的left的距离
 		box.appendChild(img);
 		move(img);   //移动img
